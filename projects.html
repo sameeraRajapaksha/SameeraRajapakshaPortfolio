@@ -3,34 +3,149 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects - Sameera Rajapaksha</title>
+  <title>プロジェクト - Sameera Rajapaksha</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <header>
     <div id="google_translate_element"></div>
-    <h1>Projects</h1>
+    <h1>プロジェクト</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
-      <a href="experience.html">Experience</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+        <a href="index.html">ホーム</a>
+        <a href="projects.html">プロジェクト</a>
+        <a href="experience.html">経験</a>
+        <a href="contact.html">連絡先</a>
+      </nav>
   </header>
   <main>
-    <h2>Highlighted Projects</h2>
-    <div class="project">
-      <h3>Factory Production Line Monitoring System</h3>
-      <p>Real-time monitoring for production tracking between factory and HQ.<br><b>Tech:</b> Node.js, React.js, MySQL</p>
-    </div>
-    <div class="project">
-      <h3>IoT Vehicle Monitoring System</h3>
-      <p>WebSocket-based tilt-angle alert system for trailers.<br><b>Tech:</b> PHP, Node.js, MSSQL</p>
-    </div>
-    <div class="project">
-      <h3>Accessible e-Sports Music Player</h3>
-      <p>Eye-controlled music player designed for users with mobility limitations.<br><b>Tech:</b> C#, .NET, Omron Vision Component</p>
-    </div>
+    <h2>注目プロジェクト</h2>
+    <section class="projects">
+      <h2>💼 プロフェッショナルプロジェクト</h2>
+
+      <!-- Project 1 -->
+       <details class="project-item" > 
+        <summary>工場生産ライン監視システム</summary> 
+        <div class="project-content"> 
+          <p><b>プロジェクト概要：</b></p> 
+          <p>本システムは、屋根材製造会社向けに開発された生産ライン監視システムであり、 
+            各顧客注文のリアルタイムな生産状況を追跡・管理することを目的としています。 このWebベースのソリューションは、
+            工場の品質管理チームと本社営業部門をつなぎ、 両者が生産の進捗を即座に確認できるようにします。 
+            リアルタイムのデータ更新により、生産部門と営業部門の連携を強化し、 手作業による報告を最小限に抑えることで業務効率を向上させました。 
+            システムには、注文状況、生産スピード、完了率をリアルタイムで表示する 中央ダッシュボードが備わっており、
+            管理者はデータに基づいた迅速な意思決定が可能となります。</p>
+
+          <h4>主な機能：</h4>
+          <ul>
+            <li>リアルタイムでの注文追跡とステータス更新</li>
+            <li>品質管理担当者による工場側データ入力と検証</li>
+            <li>本社用ダッシュボードによる進捗の可視化</li>
+            <li>自動レポート生成とパフォーマンス分析</li>
+            <li>セキュアかつスケーラブルなAPI駆動型アーキテクチャ</li>
+          </ul>
+
+          <h4>実績・技術構成：</h4>
+          <ul>
+            <li><b>フロントエンド：</b> React.js</li>
+            <li><b>バックエンド：</b> Node.js（Express）</li>
+            <li><b>認証方式：</b> JWT（JSON Web Token）</li>
+            <li><b>データベース：</b> MySQL</li>
+            <li><b>リアルタイム通信：</b> WebSocket</li>
+            <li><b>ホスティング・デプロイ：</b> Linuxサーバー（Apache / Nginx）</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- Add more projects below following same structure -->
+      <!-- Project 2 -->
+      <details class="project-item">
+        <summary>経費・取引管理システム</summary>
+        <div class="project-content"> 
+          <p><b>プロジェクト概要：</b></p> 
+          <p>本システムは、企業内の経費および取引を一元管理するために開発されました。すべての取引は、
+            財務部門や管理部門による承認フローを経て処理される仕組みを備えており、複数のユーザーレベルと承認段階に対応することで、
+            承認プロセスの自動化と取引の透明性向上を実現しています。本システムにより、経費管理の効率化、手作業によるミスの削減、
+            迅速な意思決定をサポートします。</p>
+
+          <h4>主な機能：</h4>
+          <ul>
+            <li>取引および経費データの登録・管理</li>
+            <li>ユーザーレベルごとの承認フロー自動化</li>
+            <li>財務部門および管理部門による承認履歴の追跡</li>
+            <li>ダッシュボードによる取引状況の可視化</li>
+            <li>システム管理者向けアクセス制御とログ管理</li>
+          </ul>
+
+          <h4>実績・技術構成：</h4>
+          <ul>
+            <li><b>フロントエンド：</b> React.js</li>
+            <li><b>バックエンド：</b> Lumen（REST API）</li>
+            <li><b>認証方式：</b> OAuth</li>
+            <li><b>データベース：</b> MySQL</li>
+            <li><b>ホスティング・デプロイ：</b> Apache Web Server</li>
+            <li>チームリーダーとしてフルスタック開発、デプロイ、ユーザー研修を担当</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- Add more projects below following same structure -->
+      <!-- Project 3 -->
+      <details class="project-item">
+        <summary>店舗生産・在庫計画システム</summary>
+        <div class="project-content"> 
+          <p><b>プロジェクト概要：</b></p> 
+          <p>本システムは、地元スーパーマーケットチェーン向けに開発され、店舗での生産状況を記録し、
+            売上・生産・残在庫のデータを基に翌日の生産計画を予測することを目的としています。これにより、食品廃棄の削減と効率的な生産管理を実現します。
+            システムは LAN 経由で本社サーバーと各店舗間のデータ通信を行い、リアルタイムでの情報共有を可能にします。</p>
+
+          <h4>主な機能：</h4>
+          <ul>
+            <li>店舗での生産記録および在庫状況の管理</li>
+            <li>前日データを基にした翌日の生産計画予測</li>
+            <li>本社サーバーと店舗間のリアルタイムデータ同期</li>
+            <li>POS システムからの売上データ取り込み（FTP通信）</li>
+            <li>デバイスおよびシステムのアクセス管理と運用サポート</li>
+          </ul>
+
+          <h4>実績・技術構成：</h4>
+          <ul>
+            <li><b>フロントエンド・バックエンド：</b> PHP（CodeIgniter）、JavaScript、jQuery、HTML/CSS</li>
+            <li><b>データベース：</b> MySQL</li>
+            <li><b>ネットワーク：</b> LAN 通信</li>
+            <li><b>デプロイ・運用：</b> Windows サーバー上でのシステム構築、店舗デバイス設定</li>
+            <li><b>担当：</b> 要件定義、システム・データベース・UI設計、フルスタック開発、統合・単体テスト、システムデプロイ</li>
+          </ul>
+        </div>
+      </details>
+
+      <!-- Project 4 -->
+      <details class="project-item">
+        <summary>目で操作する音楽プレイヤーアプリケーション</summary>
+        <div class="project-content"> 
+          <p><b>プロジェクト概要：</b></p> 
+          <p>愛媛県の共同プロジェクト「愛顔eスポーツ」の一環として、モビリティに制限のあるユーザーが目の動きで音楽再生を操作できるカスタムアプリケーションを開発しました。
+            本アプリケーションは、ユーザーの能力に合わせて操作可能で、ミニPC、モニター、Bluetoothスピーカー、Omron Vision Component 
+            を統合したシステムにより、アクセシブルで参加型のeスポーツ体験を提供します。</p>
+
+          <h4>主な機能：</h4>
+          <ul>
+            <li>目の動きによる音楽再生・停止・曲送り操作</li>
+            <li>ユーザーの能力に応じた操作設定のカスタマイズ</li>
+            <li>ハードウェア（ミニPC、モニター、スピーカー、センサー）との統合</li>
+            <li>ユーザー向け操作ガイド作成と使用サポート</li>
+          </ul>
+
+          <h4>実績・技術構成：</h4>
+          <ul>
+            <li><b>開発環境：</b> .NET Windows Forms</li>
+            <li><b>デバイス連携：</b> Omron Vision Component による目の動き検知</li>
+            <li>システムテストおよび納品プロセスへの参加</li>
+            <li>フルスタック開発、ユーザーガイド作成、セットアップ環境構築を担当</li>
+          </ul>
+        </div>
+      </details>
+
+  </section>
+
   </main>
   <footer>
     <p>&copy; 2025 Sameera Rajapaksha | All Rights Reserved</p>
